@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+	Licensed Materials - Property of IBM
+	5725-I43 (C) Copyright IBM Corp. 2011, 2013. All Rights Reserved.
+	US Government Users Restricted Rights - Use, duplication or
+	disclosure restricted by GSA ADP Schedule Contract with IBM Corp.
+-->
+<mfp:adapter name="textToSpeechAdapter"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:mfp="http://www.ibm.com/mfp/integration"
+	xmlns:http="http://www.ibm.com/mfp/integration/http">
+
+	<displayName>Text to Speech Adapter</displayName>
+	<description>Adapter which use the Watson Text to Speech service - > http://www.ibm.com/smarterplanet/us/en/ibmwatson/developercloud/text-to-speech.html</description>
+
+	<JAXRSApplicationClass>com.github.mfpdev.TextToSpeechAdapterApplication</JAXRSApplicationClass>
+
+	<property name="textToSpeechUser" defaultValue="dce48d8e-8008-45ae-a8c2-e6cd873d27ed"/>
+	<property name="textToSpeechPassword" defaultValue="MrPdvzvtGwMC"/>
+</mfp:adapter>
