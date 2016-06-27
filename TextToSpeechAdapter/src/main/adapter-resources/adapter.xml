@@ -15,6 +15,6 @@
 
 	<JAXRSApplicationClass>com.github.mfpdev.TextToSpeechAdapterApplication</JAXRSApplicationClass>
 
-	<property name="textToSpeechUser" defaultValue="dce48d8e-8008-45ae-a8c2-e6cd873d27ed"/>
-	<property name="textToSpeechPassword" defaultValue="MrPdvzvtGwMC"/>
+	<property name="textToSpeechUser" defaultValue=""/>
+	<property name="textToSpeechPassword" defaultValue=""/>
 </mfp:adapter>
