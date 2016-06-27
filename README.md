@@ -3,6 +3,10 @@
 Simple hello world demo which show the Live Update
 
 ### See it in action
-[![Live Update Demo](http://img.youtube.com/vi/lWYdeogj0X0/0.jpg)](http://www.youtube.com/watch?v=lWYdeogj0X0)
+<div class="sizer">
+  <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.youtube.com/embed/lWYdeogj0X0"></iframe>
+  </div>
+</div>
 
 ### Install instructions
