@@ -15,6 +15,12 @@
 		D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8B41D1FAB84001F5E30 /* LaunchScreen.storyboard */; };
 		D4FFA8BE1D1FC2BA001F5E30 /* WatsonAudioUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8BD1D1FC2BA001F5E30 /* WatsonAudioUtils.swift */; };
 		D4FFA8C01D1FE14B001F5E30 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */; };
+		D4FFA8C31D20FA64001F5E30 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C21D20FA64001F5E30 /* us.png */; };
+		D4FFA8C51D2100C1001F5E30 /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C41D2100C1001F5E30 /* uk.png */; };
+		D4FFA8C71D2101F1001F5E30 /* fr.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C61D2101F1001F5E30 /* fr.png */; };
+		D4FFA8C91D210B5A001F5E30 /* it.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C81D210B5A001F5E30 /* it.png */; };
+		D4FFA8CB1D210B64001F5E30 /* es.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8CA1D210B64001F5E30 /* es.png */; };
+		D4FFA8CD1D210F4D001F5E30 /* de.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8CC1D210F4D001F5E30 /* de.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +36,12 @@
 		D4FFA8B71D1FAB84001F5E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FFA8BD1D1FC2BA001F5E30 /* WatsonAudioUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonAudioUtils.swift; sourceTree = "<group>"; };
 		D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mfpclient.plist; sourceTree = "<group>"; };
+		D4FFA8C21D20FA64001F5E30 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
+		D4FFA8C41D2100C1001F5E30 /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
+		D4FFA8C61D2101F1001F5E30 /* fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fr.png; sourceTree = "<group>"; };
+		D4FFA8C81D210B5A001F5E30 /* it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = it.png; sourceTree = "<group>"; };
+		D4FFA8CA1D210B64001F5E30 /* es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es.png; sourceTree = "<group>"; };
+		D4FFA8CC1D210F4D001F5E30 /* de.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = de.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 		D4FFA89F1D1FAB84001F5E30 = {
 			isa = PBXGroup;
 			children = (
+				D4FFA8C11D20FA64001F5E30 /* images */,
 				D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */,
 				D4FFA8AA1D1FAB84001F5E30 /* HelloLiveUpdate */,
 				D4FFA8A91D1FAB84001F5E30 /* Products */,
@@ -92,6 +105,20 @@
 				D4FFA8B71D1FAB84001F5E30 /* Info.plist */,
 			);
 			path = HelloLiveUpdate;
+			sourceTree = "<group>";
+		};
+		D4FFA8C11D20FA64001F5E30 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D4FFA8CC1D210F4D001F5E30 /* de.jpg */,
+				D4FFA8CA1D210B64001F5E30 /* es.png */,
+				D4FFA8C61D2101F1001F5E30 /* fr.png */,
+				D4FFA8C41D2100C1001F5E30 /* uk.png */,
+				D4FFA8C21D20FA64001F5E30 /* us.png */,
+				D4FFA8C81D210B5A001F5E30 /* it.png */,
+			);
+			name = images;
+			path = HelloLiveUpdate/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,10 +182,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4FFA8CD1D210F4D001F5E30 /* de.jpg in Resources */,
 				D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */,
 				D4FFA8B31D1FAB84001F5E30 /* Assets.xcassets in Resources */,
+				D4FFA8CB1D210B64001F5E30 /* es.png in Resources */,
+				D4FFA8C71D2101F1001F5E30 /* fr.png in Resources */,
 				D4FFA8B11D1FAB84001F5E30 /* Main.storyboard in Resources */,
 				D4FFA8C01D1FE14B001F5E30 /* mfpclient.plist in Resources */,
+				D4FFA8C31D20FA64001F5E30 /* us.png in Resources */,
+				D4FFA8C91D210B5A001F5E30 /* it.png in Resources */,
+				D4FFA8C51D2100C1001F5E30 /* uk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

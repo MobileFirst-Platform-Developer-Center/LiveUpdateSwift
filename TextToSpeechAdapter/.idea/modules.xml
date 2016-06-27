@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TextToSpeechAdapter.iml" filepath="$PROJECT_DIR$/TextToSpeechAdapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/textToSpeechAdapter.iml" filepath="$PROJECT_DIR$/textToSpeechAdapter.iml" />
     </modules>
   </component>
 </project>

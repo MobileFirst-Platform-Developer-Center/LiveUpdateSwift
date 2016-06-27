@@ -30,7 +30,7 @@ public class WatsonAudioUtils : NSObject,AVAudioPlayerDelegate{
                 do {
                     
                     let data = NSMutableData (data: response.responseData)
-                    WatsonAudioUtils.repairWAVHeader (data)
+                    //WatsonAudioUtils.repairWAVHeader (data)
                     self.audioPlayer = try AVAudioPlayer(data: data)
                     self.audioPlayer!.delegate = self
                     

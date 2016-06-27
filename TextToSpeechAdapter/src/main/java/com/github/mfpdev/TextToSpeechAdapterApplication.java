@@ -14,6 +14,7 @@ import com.ibm.mfp.adapter.api.MFPJAXRSApplication;
 
 public class TextToSpeechAdapterApplication extends MFPJAXRSApplication{
 
+
 	static Logger logger = Logger.getLogger(TextToSpeechAdapterApplication.class.getName());
 	
 

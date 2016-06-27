@@ -11,9 +11,13 @@ import IBMMobileFirstPlatformFoundationLiveUpdate
 
 class ViewController: UIViewController {
     var audioUtils = WatsonAudioUtils()
-    var langauge = "EN"
+    var langauge = "US"
+    var current : UIButton?
+    @IBOutlet weak var defaultUSButton: UIButton!
     
     override func viewDidLoad() {
+        current = defaultUSButton
+        current?.enabled = false
         super.viewDidLoad()
     }
 
@@ -24,10 +28,17 @@ class ViewController: UIViewController {
     @IBAction func helloLiveUpdate(sender: AnyObject) {
         LiveUpdateManager.sharedInstance.obtainConfiguration(langauge) { (configuration, error) in
             if error == nil {
-                if let text = configuration!.getProperty("helloText") , let voice = configuration!.getProperty("voice"){
-                    self.audioUtils.playVoice(text, voice: voice, completionHandler: {
-                        "Finish playing \(text)"
-                    })
+                
+                if let isVoiceEnabled = configuration!.isFeatureEnabled("isVoiceEnabled"), let helloText = configuration!.getProperty("helloText") , let voice = configuration!.getProperty("voice"){
+                    if (isVoiceEnabled) {
+                        self.audioUtils.playVoice(helloText, voice: voice, completionHandler: {
+                            "Finish playing \(helloText)"
+                        })
+                    } else {
+                        let alert = UIAlertController(title: "Live Update", message: helloText, preferredStyle: UIAlertControllerStyle.Alert)
+                        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
+                        self.presentViewController(alert, animated: true, completion: nil)
+                    }
                 }
             } else {
                 print (error)
@@ -36,8 +47,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func selectLangauge(sender: AnyObject) {
-        let current = sender as! UIButton;
-        langauge = current.currentTitle!
+        current?.enabled = true
+        current = sender as? UIButton
+        current?.enabled = false
+        langauge = current!.restorationIdentifier!
     }
 }
 
