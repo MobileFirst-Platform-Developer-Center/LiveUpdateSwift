@@ -1,6 +1,6 @@
-### HelloLiveUpdate
+### Hello Live Update
 
-Simple hello world demo which show the Live Update feature.  The demo let you choose your prefered langauge and then say "Hello World" in the selected langauge.
+Simple hello world demo which show the Live Update feature.  The demo let you choose your prefered langauge and then say "Hello World" in the selected langauge or display dialog instead. 
 
 ##See it in action
 [![Live Update Demo](https://img.youtube.com/vi/lWYdeogj0X0/0.jpg)](https://www.youtube.com/watch?v=lWYdeogj0X0)
