@@ -8,11 +8,12 @@ Simple hello world demo which show the Live Update feature.  The demo let you ch
 ## Run the sample
 
 1. Deploy the LiveUpdate adapter
-2. Deploy the Text to Speech Adapter
-3. Live Update adapter Configuration
-4. Text to Speech adapter configuration
-5. Register the app
-6. Run the app
+2. Import the Live Update scheme
+3. Deploy the Text to Speech Adapter
+4. Live Update adapter Configuration
+5. Text to Speech adapter configuration
+6. Register the app
+7. Run the app
 
 ## Supported Versions
 IBM MobileFirst Platform Foundation 8.0
