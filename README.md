@@ -11,6 +11,20 @@ Simple hello world demo which show the Live Update feature.  The demo let you ch
   * Follow the [Adding Live Update to MobileFirst Server section](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#adding-live-update-to-mobilefirst-server)
 2. Import the Live Update scheme
   * [Click to download]() the scheme for the sample
+3. Add segments under the `Live Update Settings` Segments tab. Add the following segments IDs:
+  1. DE
+  2. FR
+  3. ES
+  4. UK
+  5. IT
+  6. US
+
+  Each segment gets the default value from the scheme, so change each one according to the spoken language.  For an example:
+  For France add the following:
+  1. isVoiceEnabled - change to true
+  2. voice - FR_RENEE
+  3. helloText - Bonjour le monde
+
 3. Deploy the Text to Speech Adapter
 4. Live Update adapter configuration
 5. Text to Speech Adapter configuration
