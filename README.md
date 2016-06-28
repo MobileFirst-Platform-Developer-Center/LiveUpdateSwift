@@ -8,12 +8,17 @@ Simple hello world demo which show the Live Update feature.  The demo let you ch
 ## Run the sample
 
 1. Deploy the LiveUpdate Adapter
+  * Follow the [Adding Live Update to MobileFirst Server section](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#adding-live-update-to-mobilefirst-server)
 2. Import the Live Update scheme
+  * [Click to download]() the scheme for the sample
 3. Deploy the Text to Speech Adapter
 4. Live Update adapter configuration
 5. Text to Speech Adapter configuration
 6. Register the App
 7. Run the App
+
+#### Note:
+To be able to see immediate changes go to Live `Update Adapter` configuration tab  and set the `expirationPeriod` to be short value (e.g: 5 seconds)
 
 ## Supported Versions
 IBM MobileFirst Platform Foundation 8.0
