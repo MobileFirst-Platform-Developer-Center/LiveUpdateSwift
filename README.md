@@ -15,7 +15,7 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-m
   * [Click to download](https://www.github.com/MobileFirst-Platform-Developer-Center/LiveUpdateSwift/blob/release80/scheme.txt) the scheme for the sample
   * [Follow the instructions in the tutorial](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#import-export) to upload the schema
 3. Add segments:
-  * In **MobileFirst Operations Console → [your application] → Live Update Settings → Segments tab**, add the following segments:
+  * In **MobileFirst Operations Console → [your application] → Live Update Settings → Segments tab**, add the following segments IDs:
   
   1. DE
   2. FR
