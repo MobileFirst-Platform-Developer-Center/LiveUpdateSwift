@@ -24,7 +24,7 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-m
   5. IT
   6. US
 
-  Each segment gets the default value from the scheme, so change each one according to the language. For example, for French add: **helloText** - **Bonjour le monde**.
+  Each segment gets the default value from the schema. Change each one according to the language. For example, for French add: **helloText** - **Bonjour le monde**.
 
 6. From a command-line window, navigate to the project's root folder and run the command `mfpdev app register` to register the application.
 7. In Xcode, run the App.
