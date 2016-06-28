@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D594FF1B06095A5BA08AE74 /* Pods_HelloLiveUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FA4D4819CBF7C7A31A051 /* Pods_HelloLiveUpdate.framework */; };
+		D41FDAB31D22764200318687 /* de.png in Resources */ = {isa = PBXBuildFile; fileRef = D41FDAB21D22764200318687 /* de.png */; };
 		D4FFA8AC1D1FAB84001F5E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */; };
 		D4FFA8AE1D1FAB84001F5E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */; };
 		D4FFA8B11D1FAB84001F5E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8AF1D1FAB84001F5E30 /* Main.storyboard */; };
@@ -19,13 +20,13 @@
 		D4FFA8C71D2101F1001F5E30 /* fr.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C61D2101F1001F5E30 /* fr.png */; };
 		D4FFA8C91D210B5A001F5E30 /* it.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C81D210B5A001F5E30 /* it.png */; };
 		D4FFA8CB1D210B64001F5E30 /* es.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8CA1D210B64001F5E30 /* es.png */; };
-		D4FFA8CD1D210F4D001F5E30 /* de.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8CC1D210F4D001F5E30 /* de.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5E8FA4D4819CBF7C7A31A051 /* Pods_HelloLiveUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLiveUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B45B773DCB0CDF6D7F043F6F /* Pods-HelloLiveUpdate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.release.xcconfig"; sourceTree = "<group>"; };
 		D1C0F283644A5C19398E0FC1 /* Pods-HelloLiveUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.debug.xcconfig"; sourceTree = "<group>"; };
+		D41FDAB21D22764200318687 /* de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = de.png; sourceTree = "<group>"; };
 		D4FFA8A81D1FAB84001F5E30 /* HelloLiveUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLiveUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,7 +40,6 @@
 		D4FFA8C61D2101F1001F5E30 /* fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fr.png; sourceTree = "<group>"; };
 		D4FFA8C81D210B5A001F5E30 /* it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = it.png; sourceTree = "<group>"; };
 		D4FFA8CA1D210B64001F5E30 /* es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es.png; sourceTree = "<group>"; };
-		D4FFA8CC1D210F4D001F5E30 /* de.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = de.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 		D4FFA8C11D20FA64001F5E30 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				D4FFA8CC1D210F4D001F5E30 /* de.jpg */,
+				D41FDAB21D22764200318687 /* de.png */,
 				D4FFA8CA1D210B64001F5E30 /* es.png */,
 				D4FFA8C61D2101F1001F5E30 /* fr.png */,
 				D4FFA8C41D2100C1001F5E30 /* uk.png */,
@@ -179,7 +179,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FFA8CD1D210F4D001F5E30 /* de.jpg in Resources */,
+				D41FDAB31D22764200318687 /* de.png in Resources */,
 				D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */,
 				D4FFA8B31D1FAB84001F5E30 /* Assets.xcassets in Resources */,
 				D4FFA8CB1D210B64001F5E30 /* es.png in Resources */,

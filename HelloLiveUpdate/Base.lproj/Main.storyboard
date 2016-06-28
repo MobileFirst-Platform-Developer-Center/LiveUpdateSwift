@@ -75,7 +75,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="DE" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSc-Bz-Cge">
                                         <rect key="frame" x="467" y="0.0" width="93" height="25"/>
-                                        <state key="normal" image="de.jpg"/>
+                                        <state key="normal" image="de.png"/>
                                         <connections>
                                             <action selector="selectLangauge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EVE-YG-Gkd"/>
                                         </connections>
@@ -101,7 +101,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="de.jpg" width="40" height="23"/>
+        <image name="de.png" width="40" height="23"/>
         <image name="es.png" width="40" height="25"/>
         <image name="fr.png" width="40" height="23"/>
         <image name="it.png" width="40" height="23"/>
