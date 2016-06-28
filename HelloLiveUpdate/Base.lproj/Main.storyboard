@@ -42,42 +42,42 @@
                                             <color key="titleColor" red="0.43137254899999999" green="0.73333333329999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <action selector="selectLangauge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FZc-T8-Lif"/>
+                                            <action selector="selectCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yUX-6y-lz4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="UK" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pQZ-81-tTW">
                                         <rect key="frame" x="93" y="0.0" width="94" height="25"/>
                                         <state key="normal" image="uk.png"/>
                                         <connections>
-                                            <action selector="selectLangauge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RwZ-Js-s4g"/>
+                                            <action selector="selectCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sEQ-lP-bHB"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="FR" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SqR-hJ-07z">
                                         <rect key="frame" x="187" y="0.0" width="93" height="25"/>
                                         <state key="normal" image="fr.png"/>
                                         <connections>
-                                            <action selector="selectLangauge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gO5-cK-YOS"/>
+                                            <action selector="selectCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Fa0-U1-AF8"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="ES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nHf-GM-Tuz">
                                         <rect key="frame" x="280" y="0.0" width="93" height="25"/>
                                         <state key="normal" image="es.png"/>
                                         <connections>
-                                            <action selector="selectLangauge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Eba-Kk-bfy"/>
+                                            <action selector="selectCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tNa-cK-WpF"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="IT" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ucm-YK-q35">
                                         <rect key="frame" x="373" y="0.0" width="94" height="25"/>
                                         <state key="normal" image="it.png"/>
                                         <connections>
-                                            <action selector="selectLangauge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsS-Uu-VXL"/>
+                                            <action selector="selectCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d7d-Zn-C00"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="DE" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSc-Bz-Cge">
                                         <rect key="frame" x="467" y="0.0" width="93" height="25"/>
                                         <state key="normal" image="de.png"/>
                                         <connections>
-                                            <action selector="selectLangauge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EVE-YG-Gkd"/>
+                                            <action selector="selectCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L91-J9-MZg"/>
                                         </connections>
                                     </button>
                                 </subviews>

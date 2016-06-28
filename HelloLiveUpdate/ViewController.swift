@@ -51,7 +51,7 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func selectLangauge(sender: AnyObject) {
+    @IBAction func selectCountry(sender: AnyObject) {
         current?.enabled = true
         current = sender as? UIButton
         current?.enabled = false
