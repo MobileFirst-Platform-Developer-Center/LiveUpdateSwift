@@ -13,7 +13,6 @@
 		D4FFA8B11D1FAB84001F5E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8AF1D1FAB84001F5E30 /* Main.storyboard */; };
 		D4FFA8B31D1FAB84001F5E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8B21D1FAB84001F5E30 /* Assets.xcassets */; };
 		D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8B41D1FAB84001F5E30 /* LaunchScreen.storyboard */; };
-		D4FFA8BE1D1FC2BA001F5E30 /* WatsonAudioUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8BD1D1FC2BA001F5E30 /* WatsonAudioUtils.swift */; };
 		D4FFA8C01D1FE14B001F5E30 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */; };
 		D4FFA8C31D20FA64001F5E30 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C21D20FA64001F5E30 /* us.png */; };
 		D4FFA8C51D2100C1001F5E30 /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C41D2100C1001F5E30 /* uk.png */; };
@@ -34,7 +33,6 @@
 		D4FFA8B21D1FAB84001F5E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4FFA8B51D1FAB84001F5E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4FFA8B71D1FAB84001F5E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4FFA8BD1D1FC2BA001F5E30 /* WatsonAudioUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatsonAudioUtils.swift; sourceTree = "<group>"; };
 		D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mfpclient.plist; sourceTree = "<group>"; };
 		D4FFA8C21D20FA64001F5E30 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
 		D4FFA8C41D2100C1001F5E30 /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 		D4FFA8AA1D1FAB84001F5E30 /* HelloLiveUpdate */ = {
 			isa = PBXGroup;
 			children = (
-				D4FFA8BD1D1FC2BA001F5E30 /* WatsonAudioUtils.swift */,
 				D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */,
 				D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */,
 				D4FFA8AF1D1FAB84001F5E30 /* Main.storyboard */,
@@ -251,7 +248,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4FFA8AE1D1FAB84001F5E30 /* ViewController.swift in Sources */,
-				D4FFA8BE1D1FC2BA001F5E30 /* WatsonAudioUtils.swift in Sources */,
 				D4FFA8AC1D1FAB84001F5E30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

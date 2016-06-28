@@ -18,8 +18,6 @@
 //  AppDelegate.swift
 //  HelloLiveUpdate
 //
-//  Created by Ishai Borovoy on 26/06/2016.
-//
 
 import UIKit
 
