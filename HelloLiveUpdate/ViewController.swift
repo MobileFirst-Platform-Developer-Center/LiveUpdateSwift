@@ -23,7 +23,7 @@ import UIKit
 import IBMMobileFirstPlatformFoundationLiveUpdate
 
 class ViewController: UIViewController {
-    var langauge = "US"
+    var country = "US"
     var current : UIButton?
     @IBOutlet weak var defaultUSButton: UIButton!
     
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func helloLiveUpdate(sender: AnyObject) {
-        LiveUpdateManager.sharedInstance.obtainConfiguration(langauge) { (configuration, error) in
+        LiveUpdateManager.sharedInstance.obtainConfiguration(country) { (configuration, error) in
             if error == nil {
                 if let helloText = configuration!.getProperty("helloText") {
                     let alert = UIAlertController(title: "Live Update", message: helloText, preferredStyle: UIAlertControllerStyle.Alert)
@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         current?.enabled = true
         current = sender as? UIButton
         current?.enabled = false
-        langauge = current!.restorationIdentifier!
+        country = current!.restorationIdentifier!
     }
 }
 
