@@ -2,7 +2,7 @@ IBM MobileFirst Foundation
 ===
 ## Hello Live Update
 
-A simple hello world demo which demonstrates the Live Update feature.  The demo let you choose your prefered langauge and then outputs the text "Hello World" in the selected langauge.
+In the sample application you select a country and using Live Update the app then outputs text in language that corresponds to the selected country.
 
 ### Tutorials
 https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/
@@ -35,7 +35,7 @@ To be able to immediatly experience changes, go to the **Live Update Settings** 
 ## Supported Versions
 IBM MobileFirst Foundation 8.0
 
-##Licence
+## Licence
 Copyright 2016 IBM Corp.
 
 Licensed under the Apache License, Version 2.0 (the "License");
