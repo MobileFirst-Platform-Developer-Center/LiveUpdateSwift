@@ -1,6 +1,19 @@
 {
-  "features": {},
+  "features": {
+    "includeMap": {
+      "name": "includeMap",
+      "description": "Use this together with the property 'mapUrl'",
+      "defaultValue": false,
+      "value": null
+    }
+  },
   "properties": {
+    "mapUrl": {
+      "name": "Map Image URL",
+      "description": "The URL of the country map",
+      "defaultValue": "https://pixabay.com/static/uploads/photo/2016/03/31/15/26/alaska-1293278_960_720.png",
+      "value": null
+    },
     "helloText": {
       "name": "Hello Text",
       "description": "The Hello Text",
