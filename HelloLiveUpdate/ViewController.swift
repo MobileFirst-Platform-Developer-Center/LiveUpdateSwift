@@ -24,38 +24,55 @@ import IBMMobileFirstPlatformFoundationLiveUpdate
 
 class ViewController: UIViewController {
     var country = "US"
-    var current : UIButton?
+    var currentCountryButton : UIButton?
+    
+    @IBOutlet weak var mapImage: UIImageView!
+    @IBOutlet weak var helloLabel: UILabel!
     @IBOutlet weak var defaultUSButton: UIButton!
     
+    @IBAction func selectCountry(sender: AnyObject) {
+        currentCountryButton?.enabled = true
+        currentCountryButton = sender as? UIButton
+        currentCountryButton?.enabled = false
+        country = currentCountryButton!.restorationIdentifier!
+        
+        updateHelloLabel ()
+    }
+    
     override func viewDidLoad() {
-        current = defaultUSButton
-        current?.enabled = false
+        currentCountryButton = defaultUSButton
+        currentCountryButton?.enabled = false
+        updateHelloLabel ()
         super.viewDidLoad()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    
+    func getUIImage (urlString: String)->UIImage? {
+        let url = NSURL(string: urlString)
+        let imagedData = NSData(contentsOfURL: url!)!
+        return UIImage(data: imagedData, scale: 10)
     }
-
-    @IBAction func helloLiveUpdate(sender: AnyObject) {
+    
+    func updateHelloLabel () {
         LiveUpdateManager.sharedInstance.obtainConfiguration(country) { (configuration, error) in
             if error == nil {
-                if let helloText = configuration!.getProperty("helloText") {
-                    let alert = UIAlertController(title: "Live Update", message: helloText, preferredStyle: UIAlertControllerStyle.Alert)
-                    alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler: nil))
-                    self.presentViewController(alert, animated: true, completion: nil)
+                let isMapFeatureEnable = configuration!.isFeatureEnabled("includeMap")
+                if isMapFeatureEnable != nil && isMapFeatureEnable!.boolValue {
+                    if let mapUrl = configuration!.getProperty("mapUrl") {
+                        self.mapImage.image = self.getUIImage(mapUrl)
+                    }
+                } else {
+                    self.mapImage.image = nil
                 }
+                if let helloText = configuration!.getProperty("helloText") {
+                    self.helloLabel.text = helloText
+                }
+                
             } else {
+                self.mapImage.image = nil
+                self.helloLabel.text = ""
                 print (error)
             }
         }
-    }
-    
-    @IBAction func selectCountry(sender: AnyObject) {
-        current?.enabled = true
-        current = sender as? UIButton
-        current?.enabled = false
-        country = current!.restorationIdentifier!
     }
 }
 
