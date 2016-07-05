@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>protocol</key>
-	<string>https</string>
+	<string>http</string>
 	<key>host</key>
-	<string>mobilefoundation-bb-server.mybluemix.net</string>
+	<string>localhost</string>
 	<key>port</key>
-	<string>443</string>
+	<string>9080</string>
 	<key>wlServerContext</key>
 	<string>/mfp/</string>
 	<key>languagePreferences</key>
