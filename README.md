@@ -29,6 +29,8 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-m
 6. From a command-line window, navigate to the project's root folder and run the command `mfpdev app register` to register the application.
 7. In Xcode, run the App.
 
+> **Tip:** you can update the bundled SDK by running the command `pod update` from the project's root folder.
+
 #### Note
 To be able to immediatly experience changes, go to the **Live Update Settings** configuration tab and set the `expirationPeriod` to a smaller value (e.g: 5 seconds).
 
