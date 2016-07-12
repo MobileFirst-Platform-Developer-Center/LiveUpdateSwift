@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "id": "US",
+      "name": "US",
+      "description": null,
+      "features": null,
+      "properties": null
+    },
+    {
+      "id": "FR",
+      "name": "FR",
+      "description": null,
+      "features": null,
+      "properties": null
+    },
+    {
+      "id": "UK",
+      "name": "UK",
+      "description": null,
+      "features": null,
+      "properties": null
+    },
+    {
+      "id": "ES",
+      "name": "ES",
+      "description": null,
+      "features": null,
+      "properties": null
+    },
+    {
+      "id": "IT",
+      "name": "IT",
+      "description": null,
+      "features": null,
+      "properties": null
+    },
+    {
+      "id": "DE",
+      "name": "DE",
+      "description": null,
+      "features": null,
+      "properties": null
+    }
+  ]
+}
