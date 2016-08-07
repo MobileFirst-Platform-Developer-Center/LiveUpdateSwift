@@ -9,15 +9,16 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-m
 
 ### Usage
 
-1. Download and deploy the Live Update adapter [as instructed in the tutorial](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#adding-live-update-to-mobilefirst-server).
-2. Add a scope mapping for **configuration-user-login** in **MobileFirst Operations Console → [your application] → Security tab → Scope-Elements Mapping**.
-3. [Import the Live Update schema and segments](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#import-export) for the sample application:
+1. From a command-line window, navigate to the project's root folder and run the following commands:
+    - `pod update` followed by `pod install` - to add the MobileFirst SDK.
+    - `mfpdev app register` - to register the application in the MobileFirst Server.
+
+2. Download and deploy the Live Update adapter [as instructed in the tutorial](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#adding-live-update-to-mobilefirst-server).
+3. Add a scope mapping for **configuration-user-login** in **MobileFirst Operations Console → [your application] → Security tab → Scope-Elements Mapping**.
+4. [Import the Live Update schema and segments](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#import-export) for the sample application:
  * [schema](https://raw.githubusercontent.com/MobileFirst-Platform-Developer-Center/LiveUpdateSwift/release80/schema.txt)
  * [segments](https://raw.githubusercontent.com/MobileFirst-Platform-Developer-Center/LiveUpdateSwift/release80/segments.txt)  
-4. From a command-line window, navigate to the project's root folder and run the command `mfpdev app register` to register the application.
 5. In Xcode, run the app in the iOS Simulator or a physical device.
-
-> **Tip:** you can update the bundled SDK by running the command `pod update` from the project's root folder.
 
 #### Changing Live Update Settings
 Each segment gets the default value from the schema. Change each one according to the language. For example, for French add: **helloText** - **Bonjour le monde**.
