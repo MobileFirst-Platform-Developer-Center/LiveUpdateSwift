@@ -24,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		5E8FA4D4819CBF7C7A31A051 /* Pods_HelloLiveUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLiveUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		828D57861DFDA681005CADB1 /* HelloLiveUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloLiveUpdate.entitlements; sourceTree = "<group>"; };
 		B45B773DCB0CDF6D7F043F6F /* Pods-HelloLiveUpdate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.release.xcconfig"; sourceTree = "<group>"; };
 		D1C0F283644A5C19398E0FC1 /* Pods-HelloLiveUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.debug.xcconfig"; sourceTree = "<group>"; };
 		D41FDAB21D22764200318687 /* de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = de.png; sourceTree = "<group>"; };
@@ -94,6 +95,7 @@
 		D4FFA8AA1D1FAB84001F5E30 /* HelloLiveUpdate */ = {
 			isa = PBXGroup;
 			children = (
+				828D57861DFDA681005CADB1 /* HelloLiveUpdate.entitlements */,
 				D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */,
 				D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */,
 				D4FFA8AF1D1FAB84001F5E30 /* Main.storyboard */,
@@ -153,6 +155,13 @@
 				TargetAttributes = {
 					D4FFA8A71D1FAB84001F5E30 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EKLCR79JH6;
+						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -237,7 +246,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -362,10 +371,14 @@
 			baseConfigurationReference = D1C0F283644A5C19398E0FC1 /* Pods-HelloLiveUpdate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloLiveUpdate/HelloLiveUpdate.entitlements;
+				DEVELOPMENT_TEAM = EKLCR79JH6;
 				INFOPLIST_FILE = HelloLiveUpdate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.HelloLiveUpdate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -374,10 +387,14 @@
 			baseConfigurationReference = B45B773DCB0CDF6D7F043F6F /* Pods-HelloLiveUpdate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HelloLiveUpdate/HelloLiveUpdate.entitlements;
+				DEVELOPMENT_TEAM = EKLCR79JH6;
 				INFOPLIST_FILE = HelloLiveUpdate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sample.HelloLiveUpdate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
