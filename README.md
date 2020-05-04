@@ -24,14 +24,14 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application
 
 4. In Xcode, run the app in the iOS Simulator or a physical device.
 
-#### Changing Live Update Settings
+### Changing Live Update Settings
 
 In **MobileFirst Operations Console → [your application] → Live Update Settings → Schema tab**
 
-##### Feature Rollout
+#### Feature Rollout
 click on the **Edit** icon of  **festivalShopping**  feature under Features section and Change the default value to **On** or *Off** to enable/disable the feature remotely.
  
-##### Feature Properties
+#### Feature Properties
 * Click the **Edit** icon of **buttonLabel** under Properties section and change the value to update the feature properties remotely.
 
 ## Version
