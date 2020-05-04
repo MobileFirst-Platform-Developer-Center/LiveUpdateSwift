@@ -8,18 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		B22AC7CAB924AED50EADAF89 /* Pods_HelloLiveUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35DFEE97C0E4535637B127 /* Pods_HelloLiveUpdate.framework */; };
-		D41FDAB31D22764200318687 /* de.png in Resources */ = {isa = PBXBuildFile; fileRef = D41FDAB21D22764200318687 /* de.png */; };
 		D4FFA8AC1D1FAB84001F5E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */; };
 		D4FFA8AE1D1FAB84001F5E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */; };
 		D4FFA8B11D1FAB84001F5E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8AF1D1FAB84001F5E30 /* Main.storyboard */; };
 		D4FFA8B31D1FAB84001F5E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8B21D1FAB84001F5E30 /* Assets.xcassets */; };
 		D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8B41D1FAB84001F5E30 /* LaunchScreen.storyboard */; };
 		D4FFA8C01D1FE14B001F5E30 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */; };
-		D4FFA8C31D20FA64001F5E30 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C21D20FA64001F5E30 /* us.png */; };
-		D4FFA8C51D2100C1001F5E30 /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C41D2100C1001F5E30 /* uk.png */; };
-		D4FFA8C71D2101F1001F5E30 /* fr.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C61D2101F1001F5E30 /* fr.png */; };
-		D4FFA8C91D210B5A001F5E30 /* it.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C81D210B5A001F5E30 /* it.png */; };
-		D4FFA8CB1D210B64001F5E30 /* es.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8CA1D210B64001F5E30 /* es.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +21,6 @@
 		828D57861DFDA681005CADB1 /* HelloLiveUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloLiveUpdate.entitlements; sourceTree = "<group>"; };
 		841237D8587A3A67FA6C76C5 /* Pods-HelloLiveUpdate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.release.xcconfig"; path = "Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.release.xcconfig"; sourceTree = "<group>"; };
 		C98B4D7693DDC563223E9B08 /* Pods-HelloLiveUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.debug.xcconfig"; path = "Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.debug.xcconfig"; sourceTree = "<group>"; };
-		D41FDAB21D22764200318687 /* de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = de.png; sourceTree = "<group>"; };
 		D4FFA8A81D1FAB84001F5E30 /* HelloLiveUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLiveUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,11 +29,6 @@
 		D4FFA8B51D1FAB84001F5E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4FFA8B71D1FAB84001F5E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mfpclient.plist; sourceTree = "<group>"; };
-		D4FFA8C21D20FA64001F5E30 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
-		D4FFA8C41D2100C1001F5E30 /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
-		D4FFA8C61D2101F1001F5E30 /* fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fr.png; sourceTree = "<group>"; };
-		D4FFA8C81D210B5A001F5E30 /* it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = it.png; sourceTree = "<group>"; };
-		D4FFA8CA1D210B64001F5E30 /* es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +63,6 @@
 		D4FFA89F1D1FAB84001F5E30 = {
 			isa = PBXGroup;
 			children = (
-				D4FFA8C11D20FA64001F5E30 /* images */,
-				D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */,
 				D4FFA8AA1D1FAB84001F5E30 /* HelloLiveUpdate */,
 				D4FFA8A91D1FAB84001F5E30 /* Products */,
 				CFDB43EB53FA080DF9E35D89 /* Pods */,
@@ -102,22 +88,9 @@
 				D4FFA8B21D1FAB84001F5E30 /* Assets.xcassets */,
 				D4FFA8B41D1FAB84001F5E30 /* LaunchScreen.storyboard */,
 				D4FFA8B71D1FAB84001F5E30 /* Info.plist */,
+				D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */,
 			);
 			path = HelloLiveUpdate;
-			sourceTree = "<group>";
-		};
-		D4FFA8C11D20FA64001F5E30 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				D41FDAB21D22764200318687 /* de.png */,
-				D4FFA8CA1D210B64001F5E30 /* es.png */,
-				D4FFA8C61D2101F1001F5E30 /* fr.png */,
-				D4FFA8C41D2100C1001F5E30 /* uk.png */,
-				D4FFA8C21D20FA64001F5E30 /* us.png */,
-				D4FFA8C81D210B5A001F5E30 /* it.png */,
-			);
-			name = images;
-			path = HelloLiveUpdate/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +140,9 @@
 			};
 			buildConfigurationList = D4FFA8A31D1FAB84001F5E30 /* Build configuration list for PBXProject "HelloLiveUpdate" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -189,16 +161,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41FDAB31D22764200318687 /* de.png in Resources */,
 				D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */,
 				D4FFA8B31D1FAB84001F5E30 /* Assets.xcassets in Resources */,
-				D4FFA8CB1D210B64001F5E30 /* es.png in Resources */,
-				D4FFA8C71D2101F1001F5E30 /* fr.png in Resources */,
 				D4FFA8B11D1FAB84001F5E30 /* Main.storyboard in Resources */,
 				D4FFA8C01D1FE14B001F5E30 /* mfpclient.plist in Resources */,
-				D4FFA8C31D20FA64001F5E30 /* us.png in Resources */,
-				D4FFA8C91D210B5A001F5E30 /* it.png in Resources */,
-				D4FFA8C51D2100C1001F5E30 /* uk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -378,7 +344,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -396,7 +362,7 @@
 				INFOPLIST_FILE = HelloLiveUpdate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.HelloLiveUpdate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfp.liveupdate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -412,7 +378,7 @@
 				INFOPLIST_FILE = HelloLiveUpdate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.HelloLiveUpdate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfp.liveupdate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
