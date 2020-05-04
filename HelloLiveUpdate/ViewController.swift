@@ -31,9 +31,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var defaultUSButton: UIButton!
     
     @IBAction func selectCountry(sender: AnyObject) {
-        currentCountryButton?.enabled = true
+        currentCountryButton?.isEnabled = true
         currentCountryButton = sender as? UIButton
-        currentCountryButton?.enabled = false
+        currentCountryButton?.isEnabled = false
         country = currentCountryButton!.restorationIdentifier!
         
         updateHelloLabel ()
@@ -41,24 +41,24 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         currentCountryButton = defaultUSButton
-        currentCountryButton?.enabled = false
+        currentCountryButton?.isEnabled = false
         updateHelloLabel ()
         super.viewDidLoad()
     }
     
     func getUIImage (urlString: String)->UIImage? {
         let url = NSURL(string: urlString)
-        let imagedData = NSData(contentsOfURL: url!)!
-        return UIImage(data: imagedData, scale: 10)
+        let imagedData = NSData(contentsOf: url! as URL)!
+        return UIImage(data: imagedData as Data, scale: 10)
     }
     
     func updateHelloLabel () {
-        LiveUpdateManager.sharedInstance.obtainConfiguration(country) { (configuration, error) in
+        LiveUpdateManager.sharedInstance.obtainConfiguration() { (configuration, error) in
             if error == nil {
                 let isMapFeatureEnable = configuration!.isFeatureEnabled("includeMap")
-                if isMapFeatureEnable != nil && isMapFeatureEnable!.boolValue {
+                if isMapFeatureEnable != nil && isMapFeatureEnable == true {
                     if let mapUrl = configuration!.getProperty("mapUrl") {
-                        self.mapImage.image = self.getUIImage(mapUrl)
+                        self.mapImage.image = self.getUIImage(urlString: mapUrl)
                     }
                 } else {
                     self.mapImage.image = nil
@@ -70,7 +70,7 @@ class ViewController: UIViewController {
             } else {
                 self.mapImage.image = nil
                 self.helloLabel.text = ""
-                print (error)
+                print (error ?? "Error")
             }
         }
     }
