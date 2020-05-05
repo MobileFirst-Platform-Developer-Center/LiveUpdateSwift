@@ -14,15 +14,13 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application
 1. From a command-line window, navigate to the project's root folder and run the following commands:
     - `pod update` followed by `pod install` - to add the MobileFirst SDK.
     - `mfpdev app register` - to register the application in the MobileFirst Server.
-    - `mfpdev app pull` - to add the `liveupdate.mobileclient` scope in scope elements mappings section of security.
+    - `mfpdev app push` - to add the `liveupdate.mobileclient` scope in scope elements mappings section of security.
 
-2. Download and deploy the Live Update adapter [as instructed in the tutorial](https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/using-the-mfpf-sdk/live-update/#adding-live-update-to-mobilefirst-server).
-
-3. Add Liveupdate Features & Properties as shown below in **MobileFirst Operations Console → [your application] → Liveupdate Settings → Schema**.
+2. Add Liveupdate Features & Properties as shown below in **MobileFirst Operations Console → [your application] → Liveupdate Settings → Schema**.
 
 ![Liveupdate Screenshot](mobilefirst/liveupdate-schema.png)
 
-4. In Xcode, run the app in the iOS Simulator or a physical device.
+3. In Xcode, run the app in the iOS Simulator or a physical device.
 
 ### Changing Live Update Settings
 
