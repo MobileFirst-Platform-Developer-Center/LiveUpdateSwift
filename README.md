@@ -2,7 +2,7 @@ IBM MobileFirst Foundation
 ===
 ## Hello Live Update
 
-In the sample application, User can roll feature and the properties remotely using Liveupdate Feature of MobileFirst Foundation
+In the sample application, User can roll out a feature and the properties remotely using Liveupdate Feature of MobileFirst Foundation
 
 ### Tutorials
 https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application-development/live-update-service/
@@ -27,10 +27,10 @@ https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application
 In **MobileFirst Operations Console → [your application] → Live Update Settings → Schema tab**
 
 #### Feature Rollout
-click on the **Edit** icon of  **festivalShopping**  feature under Features section and Change the default value to **On** or *Off** to enable/disable the feature remotely.
+Click on the **Edit** icon of  **festivalShopping**  feature under Features section and Change the default value to **On** or *Off** to enable/disable the feature remotely.
  
 #### Feature Properties
-* Click the **Edit** icon of **buttonLabel** under Properties section and change the value to update the feature properties remotely.
+Click the **Edit** icon of **buttonLabel** under Properties section and change the value to update the feature properties remotely.
 
 ## Version
 Swift 5.0
