@@ -7,27 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D594FF1B06095A5BA08AE74 /* Pods_HelloLiveUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E8FA4D4819CBF7C7A31A051 /* Pods_HelloLiveUpdate.framework */; };
-		D41FDAB31D22764200318687 /* de.png in Resources */ = {isa = PBXBuildFile; fileRef = D41FDAB21D22764200318687 /* de.png */; };
+		B22AC7CAB924AED50EADAF89 /* Pods_HelloLiveUpdate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35DFEE97C0E4535637B127 /* Pods_HelloLiveUpdate.framework */; };
 		D4FFA8AC1D1FAB84001F5E30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */; };
 		D4FFA8AE1D1FAB84001F5E30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */; };
 		D4FFA8B11D1FAB84001F5E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8AF1D1FAB84001F5E30 /* Main.storyboard */; };
 		D4FFA8B31D1FAB84001F5E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8B21D1FAB84001F5E30 /* Assets.xcassets */; };
 		D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8B41D1FAB84001F5E30 /* LaunchScreen.storyboard */; };
 		D4FFA8C01D1FE14B001F5E30 /* mfpclient.plist in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */; };
-		D4FFA8C31D20FA64001F5E30 /* us.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C21D20FA64001F5E30 /* us.png */; };
-		D4FFA8C51D2100C1001F5E30 /* uk.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C41D2100C1001F5E30 /* uk.png */; };
-		D4FFA8C71D2101F1001F5E30 /* fr.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C61D2101F1001F5E30 /* fr.png */; };
-		D4FFA8C91D210B5A001F5E30 /* it.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8C81D210B5A001F5E30 /* it.png */; };
-		D4FFA8CB1D210B64001F5E30 /* es.png in Resources */ = {isa = PBXBuildFile; fileRef = D4FFA8CA1D210B64001F5E30 /* es.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5E8FA4D4819CBF7C7A31A051 /* Pods_HelloLiveUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLiveUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C35DFEE97C0E4535637B127 /* Pods_HelloLiveUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloLiveUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		828D57861DFDA681005CADB1 /* HelloLiveUpdate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HelloLiveUpdate.entitlements; sourceTree = "<group>"; };
-		B45B773DCB0CDF6D7F043F6F /* Pods-HelloLiveUpdate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.release.xcconfig"; sourceTree = "<group>"; };
-		D1C0F283644A5C19398E0FC1 /* Pods-HelloLiveUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.debug.xcconfig"; sourceTree = "<group>"; };
-		D41FDAB21D22764200318687 /* de.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = de.png; sourceTree = "<group>"; };
+		841237D8587A3A67FA6C76C5 /* Pods-HelloLiveUpdate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.release.xcconfig"; path = "Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.release.xcconfig"; sourceTree = "<group>"; };
+		C98B4D7693DDC563223E9B08 /* Pods-HelloLiveUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloLiveUpdate.debug.xcconfig"; path = "Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate.debug.xcconfig"; sourceTree = "<group>"; };
 		D4FFA8A81D1FAB84001F5E30 /* HelloLiveUpdate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLiveUpdate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4FFA8AB1D1FAB84001F5E30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4FFA8AD1D1FAB84001F5E30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,11 +29,6 @@
 		D4FFA8B51D1FAB84001F5E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4FFA8B71D1FAB84001F5E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mfpclient.plist; sourceTree = "<group>"; };
-		D4FFA8C21D20FA64001F5E30 /* us.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = us.png; sourceTree = "<group>"; };
-		D4FFA8C41D2100C1001F5E30 /* uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uk.png; sourceTree = "<group>"; };
-		D4FFA8C61D2101F1001F5E30 /* fr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fr.png; sourceTree = "<group>"; };
-		D4FFA8C81D210B5A001F5E30 /* it.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = it.png; sourceTree = "<group>"; };
-		D4FFA8CA1D210B64001F5E30 /* es.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = es.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,39 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D594FF1B06095A5BA08AE74 /* Pods_HelloLiveUpdate.framework in Frameworks */,
+				B22AC7CAB924AED50EADAF89 /* Pods_HelloLiveUpdate.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0B78DCF44CF9F2F2D19803B9 /* Pods */ = {
+		569BA5C71F149B3EC00183E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D1C0F283644A5C19398E0FC1 /* Pods-HelloLiveUpdate.debug.xcconfig */,
-				B45B773DCB0CDF6D7F043F6F /* Pods-HelloLiveUpdate.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D4E1911AC5D89B7419F65D93 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E8FA4D4819CBF7C7A31A051 /* Pods_HelloLiveUpdate.framework */,
+				6C35DFEE97C0E4535637B127 /* Pods_HelloLiveUpdate.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFDB43EB53FA080DF9E35D89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C98B4D7693DDC563223E9B08 /* Pods-HelloLiveUpdate.debug.xcconfig */,
+				841237D8587A3A67FA6C76C5 /* Pods-HelloLiveUpdate.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		D4FFA89F1D1FAB84001F5E30 = {
 			isa = PBXGroup;
 			children = (
-				D4FFA8C11D20FA64001F5E30 /* images */,
-				D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */,
 				D4FFA8AA1D1FAB84001F5E30 /* HelloLiveUpdate */,
 				D4FFA8A91D1FAB84001F5E30 /* Products */,
-				0B78DCF44CF9F2F2D19803B9 /* Pods */,
-				D4E1911AC5D89B7419F65D93 /* Frameworks */,
+				CFDB43EB53FA080DF9E35D89 /* Pods */,
+				569BA5C71F149B3EC00183E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,22 +88,9 @@
 				D4FFA8B21D1FAB84001F5E30 /* Assets.xcassets */,
 				D4FFA8B41D1FAB84001F5E30 /* LaunchScreen.storyboard */,
 				D4FFA8B71D1FAB84001F5E30 /* Info.plist */,
+				D4FFA8BF1D1FE14B001F5E30 /* mfpclient.plist */,
 			);
 			path = HelloLiveUpdate;
-			sourceTree = "<group>";
-		};
-		D4FFA8C11D20FA64001F5E30 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				D41FDAB21D22764200318687 /* de.png */,
-				D4FFA8CA1D210B64001F5E30 /* es.png */,
-				D4FFA8C61D2101F1001F5E30 /* fr.png */,
-				D4FFA8C41D2100C1001F5E30 /* uk.png */,
-				D4FFA8C21D20FA64001F5E30 /* us.png */,
-				D4FFA8C81D210B5A001F5E30 /* it.png */,
-			);
-			name = images;
-			path = HelloLiveUpdate/images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,12 +100,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4FFA8BA1D1FAB84001F5E30 /* Build configuration list for PBXNativeTarget "HelloLiveUpdate" */;
 			buildPhases = (
-				FF70AA67775A068C61C18ECA /* [CP] Check Pods Manifest.lock */,
+				CC86E1F559C75B85B77AA5B3 /* [CP] Check Pods Manifest.lock */,
 				D4FFA8A41D1FAB84001F5E30 /* Sources */,
 				D4FFA8A51D1FAB84001F5E30 /* Frameworks */,
 				D4FFA8A61D1FAB84001F5E30 /* Resources */,
-				81D4F9A5697BFC9EAB4E3E17 /* [CP] Embed Pods Frameworks */,
-				45D2E196842DDC5497EB2B15 /* [CP] Copy Pods Resources */,
+				8B87923F68BDE8C18B81E902 /* [CP] Embed Pods Frameworks */,
+				75BD0CE257BE00DFFEA74235 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,7 +140,7 @@
 			};
 			buildConfigurationList = D4FFA8A31D1FAB84001F5E30 /* Build configuration list for PBXProject "HelloLiveUpdate" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -188,65 +161,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D41FDAB31D22764200318687 /* de.png in Resources */,
 				D4FFA8B61D1FAB84001F5E30 /* LaunchScreen.storyboard in Resources */,
 				D4FFA8B31D1FAB84001F5E30 /* Assets.xcassets in Resources */,
-				D4FFA8CB1D210B64001F5E30 /* es.png in Resources */,
-				D4FFA8C71D2101F1001F5E30 /* fr.png in Resources */,
 				D4FFA8B11D1FAB84001F5E30 /* Main.storyboard in Resources */,
 				D4FFA8C01D1FE14B001F5E30 /* mfpclient.plist in Resources */,
-				D4FFA8C31D20FA64001F5E30 /* us.png in Resources */,
-				D4FFA8C91D210B5A001F5E30 /* it.png in Resources */,
-				D4FFA8C51D2100C1001F5E30 /* uk.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		45D2E196842DDC5497EB2B15 /* [CP] Copy Pods Resources */ = {
+		75BD0CE257BE00DFFEA74235 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate-resources.sh",
+				"${PODS_ROOT}/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Resources/Localizations.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Localizations.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		81D4F9A5697BFC9EAB4E3E17 /* [CP] Embed Pods Frameworks */ = {
+		8B87923F68BDE8C18B81E902 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate-frameworks.sh",
+				"${PODS_ROOT}/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks/IBMMobileFirstPlatformFoundation.framework",
+				"${PODS_ROOT}/IBMMobileFirstPlatformFoundation/IBMMobileFirstPlatformFoundation/Frameworks/IBMMobileFoundationSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/IBMMobileFirstPlatformFoundationLiveUpdate/IBMMobileFirstPlatformFoundationLiveUpdate.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMMobileFirstPlatformFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMMobileFoundationSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBMMobileFirstPlatformFoundationLiveUpdate.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloLiveUpdate/Pods-HelloLiveUpdate-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FF70AA67775A068C61C18ECA /* [CP] Check Pods Manifest.lock */ = {
+		CC86E1F559C75B85B77AA5B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HelloLiveUpdate-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -320,11 +304,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -359,16 +344,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		D4FFA8BB1D1FAB84001F5E30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1C0F283644A5C19398E0FC1 /* Pods-HelloLiveUpdate.debug.xcconfig */;
+			baseConfigurationReference = C98B4D7693DDC563223E9B08 /* Pods-HelloLiveUpdate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HelloLiveUpdate/HelloLiveUpdate.entitlements;
@@ -376,15 +362,15 @@
 				INFOPLIST_FILE = HelloLiveUpdate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.HelloLiveUpdate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfp.liveupdate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		D4FFA8BC1D1FAB84001F5E30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B45B773DCB0CDF6D7F043F6F /* Pods-HelloLiveUpdate.release.xcconfig */;
+			baseConfigurationReference = 841237D8587A3A67FA6C76C5 /* Pods-HelloLiveUpdate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = HelloLiveUpdate/HelloLiveUpdate.entitlements;
@@ -392,9 +378,9 @@
 				INFOPLIST_FILE = HelloLiveUpdate/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sample.HelloLiveUpdate;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mfp.liveupdate;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 2.3;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
